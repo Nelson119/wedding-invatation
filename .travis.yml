@@ -12,7 +12,7 @@ cache:
 
 branches:
   only:
-    - master
+    - develop
 
 install:
   - travis_retry npm i
@@ -28,4 +28,4 @@ deploy:
   target-branch: gh-pages
   local-dir: dist
   on:
-    branch: master
+    branch: develop
