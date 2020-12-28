@@ -16,7 +16,7 @@ branches:
 
 install:
   - travis_retry npm i
-  - npm run generate
+  - npm run build
 
 script:
   - echo "Skipping tests"
